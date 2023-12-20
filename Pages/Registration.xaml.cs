@@ -24,5 +24,15 @@ namespace SupermarketBugrina.Pages
         {
             InitializeComponent();
         }
+
+        private void signUp(object sender, RoutedEventArgs e)
+        {
+            MainWindow.init.OpenPage(new Pages.Employees());
+        }
+
+        private void autGo(object sender, RoutedEventArgs e)
+        {
+            MainWindow.init.OpenPage(new Pages.Registration());
+        }
     }
 }

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Супермаркет" Height="450" Width="800" MinHeight="450" MinWidth="800">
     <Grid>
-        <Grid Height="70" VerticalAlignment="Top" Background="#834e2f">
+        <Grid Height="70" VerticalAlignment="Bottom" Background="#834e2f" HorizontalAlignment="Center" Width="800" Margin="0,0,0,364">
             <Image Source="Images/Supermarket.png" Width="71" Height="70" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
             <Label Content="СуперМаркет" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="16" Margin="117,0,0,0"/>
             <Button Click="Exit" VerticalAlignment="Center" Foreground="#834e2f" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Width="100" Height="26" Content="Выйти" Margin="670,0,0,0"/>

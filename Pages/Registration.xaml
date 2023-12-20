@@ -9,13 +9,13 @@
       Title="Registration">
 
     <Grid Background="#d09c7e">
-        <Label Content="Зарегистрируйтесь" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,80,0,0"/>
-        <Label Content="Введите логин : " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="0,122,0,0"/>
-        <Label Content="Введите пароль : " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="0,195,0,0"/>
-        <TextBox x:Name="loginReg" HorizontalAlignment="Center" VerticalAlignment="Top" Height="26" Margin="0,162,0,0" Width="290" />
-        <TextBox x:Name="pwdReg" Height="24" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,234,0,0" Width="290" />
-        <Button Click="regAut" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Регистрация" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="0,282,0,0" Height="26" Width="124"/>
-        <Label Content="Есть аккаунт? Авторизируйтесь" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="251,367,0,0"/>
-        <Button Click="autGo" VerticalAlignment="Top" Content="->" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="491,368,0,0" Height="26" HorizontalAlignment="Left" Width="34"/>
+        <Label Content="Зарегистрируйтесь" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,20,0,0"/>
+        <Label Content="Введите логин : " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="0,62,0,0"/>
+        <Label Content="Введите пароль : " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="0,135,0,0"/>
+        <TextBox x:Name="loginReg" HorizontalAlignment="Center" VerticalAlignment="Top" Height="26" Margin="0,102,0,0" Width="290" />
+        <TextBox x:Name="pwdReg" Height="24" HorizontalAlignment="Center" VerticalAlignment="Top" Width="290" Margin="0,173,0,0" />
+        <Button Click="signUp" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Регистрация" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="0,222,0,0" Height="26" Width="124"/>
+        <Label Content="Есть аккаунт? Авторизируйтесь" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="259,271,0,0"/>
+        <Button Click="autGo" VerticalAlignment="Top" Content="->" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="499,272,0,0" Height="26" HorizontalAlignment="Left" Width="34"/>
     </Grid>
 </Page>

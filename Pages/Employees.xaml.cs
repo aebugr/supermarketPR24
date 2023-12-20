@@ -13,27 +13,31 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SupermarketBugrina
+namespace SupermarketBugrina.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Employees.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Employees : Page
     {
-        public static MainWindow init;
-        public MainWindow()
+        public Employees()
         {
             InitializeComponent();
-            OpenPage(new Pages.Authorization());
-            init = this;
         }
-        public void OpenPage(Page Page)
+
+        private void AddEmployees(object sender, RoutedEventArgs e)
         {
-            frame.Navigate(Page);
+
         }
-        private void Exit(object sender, RoutedEventArgs e)
+
+        private void GoodsGo(object sender, RoutedEventArgs e)
         {
-            this.Close();
+
+        }
+
+        private void DepartamentsGo(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
