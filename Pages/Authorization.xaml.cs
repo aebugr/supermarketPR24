@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SupermarketBugrina
+namespace SupermarketBugrina.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Authorization.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Authorization : Page
     {
-        public MainWindow()
+        public Authorization()
         {
             InitializeComponent();
-        }
-
-        private void Exit(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }
