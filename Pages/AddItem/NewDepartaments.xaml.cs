@@ -16,23 +16,23 @@ using System.Windows.Shapes;
 namespace SupermarketBugrina.Pages.AddItem
 {
     /// <summary>
-    /// Логика взаимодействия для NewEmployees.xaml
+    /// Логика взаимодействия для NewDepartaments.xaml
     /// </summary>
-    public partial class NewEmployees : Page
+    public partial class NewDepartaments : Page
     {
-        public NewEmployees()
+        public NewDepartaments()
         {
             InitializeComponent();
         }
 
-        private void Add(object sender, RoutedEventArgs e)
-        {
-            MainWindow.init.OpenPage(new Pages.Employees());
-        }
-
         private void Back(object sender, RoutedEventArgs e)
         {
-            MainWindow.init.OpenPage(new Pages.Employees());
+            MainWindow.init.OpenPage(new Pages.Departaments());
+        }
+
+        private void Add(object sender, RoutedEventArgs e)
+        {
+            MainWindow.init.OpenPage(new Pages.Departaments());
         }
     }
 }

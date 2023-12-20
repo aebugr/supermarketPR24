@@ -9,10 +9,10 @@
       Title="NewGoods">
 
     <Grid Background="#fbd9c6">
+        <Label Content="Добавление нового товара" Margin="255,16,255,0" FontWeight="Bold" FontSize="17" Height="42" VerticalAlignment="Top"/>
         <Label Content="Название товара : " Margin="101,78,547,0" FontWeight="Bold" FontSize="15" Height="36" VerticalAlignment="Top"/>
         <Label Content="Оценка в отзыве : " Margin="101,130,547,0" FontWeight="Bold" FontSize="15" Height="40" VerticalAlignment="Top"/>
         <Label Content="В наличии ? " Margin="101,180,547,0" FontWeight="Bold" FontSize="15" Height="36" VerticalAlignment="Top"/>
-        <Label Content="Добавление нового сотрудника" Margin="255,16,255,0" FontWeight="Bold" FontSize="17" Height="42" VerticalAlignment="Top"/>
         <Label Content="Отдел : " Margin="101,221,637,0" FontWeight="Bold" FontSize="15" Height="36" VerticalAlignment="Top"/>
         <TextBox x:Name="goodsText" HorizontalAlignment="Left" Margin="400,83,0,0" VerticalAlignment="Top" Width="319" Height="31"/>
         <TextBox x:Name="raitingText" HorizontalAlignment="Left" Margin="400,130,0,0" VerticalAlignment="Top" Width="319" Height="31"/>
