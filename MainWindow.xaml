@@ -10,7 +10,7 @@
         <Grid Height="70" VerticalAlignment="Top" Background="#834e2f">
             <Image Source="Images/Supermarket.png" Width="71" Height="70" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
             <Label Content="СуперМаркет" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="16" Margin="117,0,0,0"/>
-            <Button Click="Exit" VerticalAlignment="Center" Foreground="#834e2f" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Width="100" Height="26" Content="Выйти" Margin="670,0,0,0"/>
+            <Button Click="Exit" VerticalAlignment="Center" Foreground="#834e2f" FontSize="15" FontWeight="Bold" Height="26" Content="Выйти" Margin="0,0,30,0" HorizontalAlignment="Right" Width="100"/>
         </Grid>
         <Frame x:Name="frame" NavigationUIVisibility="Hidden" Margin="0,70,0,0"/>
     </Grid>

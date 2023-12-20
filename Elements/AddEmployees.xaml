@@ -10,7 +10,7 @@
         <Label x:Name="fioEmpl" Content="ФИО : Бугрина Алёна Евгеньевна" Margin="26,32,410,131" FontWeight="Bold" FontSize="15"/>
         <Label x:Name="postEmpl" Content="Должность : Поставщик " Margin="26,88,402,77" FontWeight="Bold" FontSize="15"/>
         <Label x:Name="dateEmpl" Content="Дата продажи : 21.12.2023" Margin="26,144,425,28" FontWeight="Bold" FontSize="15"/>
-        <Button Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Content="Изменить" Margin="572,127,105,53" Click="Edit" FontSize="15"/>
-        <Button  Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Height="25" Content="Удалить" Margin="572,48,105,131" Click="Delete" FontSize="15"/>
+        <Button Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Content="Изменить" Margin="572,127,0,53" Click="Edit" FontSize="15" HorizontalAlignment="Left" Width="112"/>
+        <Button  Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Height="25" Content="Удалить" Margin="572,48,0,131" Click="Delete" FontSize="15" HorizontalAlignment="Left" Width="112"/>
     </Grid>
 </UserControl>

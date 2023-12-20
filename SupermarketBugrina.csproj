@@ -88,6 +88,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\AddItem\NewEmployees.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Login\Authorization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -110,6 +114,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\AddItem\NewEmployees.xaml.cs">
+      <DependentUpon>NewEmployees.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Login\Authorization.xaml.cs">
       <DependentUpon>Authorization.xaml</DependentUpon>
     </Compile>
@@ -153,8 +160,6 @@
   <ItemGroup>
     <Resource Include="Images\Supermarket.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pages\AddItem\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

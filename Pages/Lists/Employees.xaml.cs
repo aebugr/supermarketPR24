@@ -27,7 +27,7 @@ namespace SupermarketBugrina.Pages
 
         private void AddEmployees(object sender, RoutedEventArgs e)
         {
-
+            MainWindow.init.OpenPage(new Pages.AddItem.NewEmployees());
         }
 
         private void GoodsGo(object sender, RoutedEventArgs e)
