@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="SupermarketBugrina.Elements.AddDepartaments"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SupermarketBugrina.Elements"
+             mc:Ignorable="d" 
+             d:DesignHeight="203.731" d:DesignWidth="788.806">
+    <Grid>
+        <Grid Background="#fbd9c6">
+            <Label x:Name="nameDepart" Content="Название отдела : Напитки" Margin="26,20,410,144" FontWeight="Bold" FontSize="15"/>
+            <Label x:Name="storeDepart"  Content="Склад : Розничный" Margin="26,81,402,85" FontWeight="Bold" FontSize="15"/>
+            <Label x:Name="promotionDepart" Content="Акция : Акция 1 + 1" Margin="26,139,402,27" FontWeight="Bold" FontSize="15"/>
+            <Button Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Content="Изменить" Margin="572,127,105,53" Click="Edit" FontSize="15"/>
+            <Button  Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Height="25" Content="Удалить" Margin="572,48,105,131" Click="Delete" FontSize="15"/>
+        </Grid>
+    </Grid>
+</UserControl>
