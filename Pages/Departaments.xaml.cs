@@ -16,28 +16,28 @@ using System.Windows.Shapes;
 namespace SupermarketBugrina.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для Employees.xaml
+    /// Логика взаимодействия для Departaments.xaml
     /// </summary>
-    public partial class Employees : Page
+    public partial class Departaments : Page
     {
-        public Employees()
+        public Departaments()
         {
             InitializeComponent();
         }
 
-        private void AddEmployees(object sender, RoutedEventArgs e)
+        private void AddDepartaments(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void EmployeesGo(object sender, RoutedEventArgs e)
+        {
+            MainWindow.init.OpenPage(new Pages.Employees());
         }
 
         private void GoodsGo(object sender, RoutedEventArgs e)
         {
             MainWindow.init.OpenPage(new Pages.Goods());
-        }
-
-        private void DepartamentsGo(object sender, RoutedEventArgs e)
-        {
-            MainWindow.init.OpenPage(new Pages.Departaments());
         }
     }
 }

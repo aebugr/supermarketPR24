@@ -37,7 +37,7 @@ namespace SupermarketBugrina.Pages
 
         private void DepartamentsGo(object sender, RoutedEventArgs e)
         {
-
+            MainWindow.init.OpenPage(new Pages.Departaments());
         }
     }
 }
