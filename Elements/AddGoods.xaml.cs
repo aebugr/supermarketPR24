@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace SupermarketBugrina.Elements
 {
     /// <summary>
-    /// Логика взаимодействия для AddEmployees.xaml
+    /// Логика взаимодействия для AddGoods.xaml
     /// </summary>
-    public partial class AddEmployees : UserControl
+    public partial class AddGoods : UserControl
     {
-        public AddEmployees()
+        public AddGoods()
         {
             InitializeComponent();
         }
