@@ -12,10 +12,10 @@
         <Label Content="Войдите в аккаунт" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,80,0,0"/>
         <Label Content="Введите логин : " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="0,122,0,0"/>
         <Label Content="Введите пароль : " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="0,195,0,0"/>
-        <TextBox x:Name="from" HorizontalAlignment="Center" VerticalAlignment="Top" Height="26" Margin="0,162,0,0" Width="290" />
-        <TextBox x:Name="to" Height="24" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,234,0,0" Width="290" />
-        <Button Click="Search" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Вход" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="0,282,0,0" Height="26" Width="124"/>
+        <TextBox x:Name="loginAut" HorizontalAlignment="Center" VerticalAlignment="Top" Height="26" Margin="0,162,0,0" Width="290" />
+        <TextBox x:Name="pwdAut" Height="24" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,234,0,0" Width="290" />
+        <Button Click="loginAut" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Вход" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="0,282,0,0" Height="26" Width="124"/>
         <Label Content="Нет аккаунта? Зарегистрируйтесь" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="240,367,0,0"/>
-        <Button Click="Search" VerticalAlignment="Top" Content="->" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="498,368,0,0" Height="26" HorizontalAlignment="Left" Width="34"/>
+        <Button Click="regGo" VerticalAlignment="Top" Content="->" Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Margin="498,368,0,0" Height="26" HorizontalAlignment="Left" Width="34"/>
     </Grid>
 </Page>
