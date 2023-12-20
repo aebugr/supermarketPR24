@@ -26,7 +26,7 @@ namespace SupermarketBugrina.Pages
         }
         private void regGo(object sender, RoutedEventArgs e)
         {
-            MainWindow.init.OpenPage(new Pages.Registration());
+            MainWindow.init.OpenPage(new Pages.Authorization());
         }
 
         private void loginUp(object sender, RoutedEventArgs e)

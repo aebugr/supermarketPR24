@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Elements\AddEmployees.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,45 +67,48 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Elements\AddEmployees.xaml.cs">
+      <DependentUpon>AddEmployees.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pages\Authorization.xaml">
+    <Page Include="Pages\Login\Authorization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Departaments.xaml">
+    <Page Include="Pages\Lists\Departaments.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Employees.xaml">
+    <Page Include="Pages\Lists\Employees.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Goods.xaml">
+    <Page Include="Pages\Lists\Goods.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Registration.xaml">
+    <Page Include="Pages\Login\Registration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\Authorization.xaml.cs">
+    <Compile Include="Pages\Login\Authorization.xaml.cs">
       <DependentUpon>Authorization.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Departaments.xaml.cs">
+    <Compile Include="Pages\Lists\Departaments.xaml.cs">
       <DependentUpon>Departaments.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Employees.xaml.cs">
+    <Compile Include="Pages\Lists\Employees.xaml.cs">
       <DependentUpon>Employees.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Goods.xaml.cs">
+    <Compile Include="Pages\Lists\Goods.xaml.cs">
       <DependentUpon>Goods.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Registration.xaml.cs">
+    <Compile Include="Pages\Login\Registration.xaml.cs">
       <DependentUpon>Registration.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -131,6 +138,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Supermarket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\AddItem\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

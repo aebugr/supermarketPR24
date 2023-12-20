@@ -10,7 +10,7 @@
 
     <Grid Background="#f8c0a0">
         <Label Content="Добро пожаловать !" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,20,0,0"/>
-        <Label Content="Список сотрудников" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,56,0,0"/>
+        <Label Content="Список сотрудников" Foreground="#834e2f" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="313,56,0,0"/>
         <ScrollViewer VerticalAlignment="Top" Margin="10,106,10,0" Height="294">
             <StackPanel x:Name="parent">
 

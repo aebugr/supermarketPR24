@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="SupermarketBugrina.Elements.AddEmployees"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SupermarketBugrina.Elements"
+             mc:Ignorable="d" 
+             d:DesignHeight="203.731" d:DesignWidth="788.806">
+    <Grid Background="#fbd9c6">
+        <Label x:Name="fioEmpl" Content="ФИО : Бугрина Алёна Евгеньевна" Margin="26,32,410,131" FontWeight="Bold" FontSize="15"/>
+        <Label x:Name="postEmpl" Content="Должность : Поставщик " Margin="26,88,402,77" FontWeight="Bold" FontSize="15"/>
+        <Label x:Name="dateEmpl" Content="Дата продажи : 21.12.2023" Margin="26,144,425,28" FontWeight="Bold" FontSize="15"/>
+        <Button Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Content="Изменить" Margin="572,127,105,53" Click="Edit" FontSize="15"/>
+        <Button  Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Height="25" Content="Удалить" Margin="572,48,105,131" Click="Delete" FontSize="15"/>
+    </Grid>
+</UserControl>
