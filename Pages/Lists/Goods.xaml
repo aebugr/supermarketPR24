@@ -9,7 +9,7 @@
       Title="Goods">
 
     <Grid Background="#f8c0a0">
-        <Label Content="Список товаров" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,46,0,0"/>
+        <Label Content="Список товаров" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,29,0,0"/>
         <ScrollViewer VerticalAlignment="Top" Margin="10,103,10,0" Height="297">
             <StackPanel x:Name="parent">
 
