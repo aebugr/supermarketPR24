@@ -9,6 +9,8 @@
       Title="Employees">
 
     <Grid Background="#f8c0a0">
+        <Label Content="Добро пожаловать !" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,20,0,0"/>
+        <Label Content="Список сотрудников" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,56,0,0"/>
         <ScrollViewer VerticalAlignment="Top" Margin="10,106,10,0" Height="294">
             <StackPanel x:Name="parent">
 
@@ -17,7 +19,5 @@
         <Button Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Width="124" Height="26" Content="Добавить" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,10" Click="AddEmployees"/>
         <Button Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Width="124" Height="26" Content="Товары" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="154,0,0,10" Click="GoodsGo"/>
         <Button Background="#834e2f" BorderBrush="#3a2215" Foreground="White" Width="124" Height="26" Content="Отделы" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="294,0,0,10" Click="DepartamentsGo"/>
-        <Label Content="Добро пожаловать !" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,20,0,0"/>
-        <Label Content="Список сотрудников" Foreground="#834e2f" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,56,0,0"/>
     </Grid>
 </Page>
